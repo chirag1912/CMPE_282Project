@@ -45,7 +45,8 @@ Server will be running on ‘http://localhost:3000’
 ## Backend SetUp:
 Requirements:
 
-set following environment variables values:
+Set following environment variables values:
+
 AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID", None)
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY", None)
 AWS_REGION = os.getenv("AWS_REGION", None)
