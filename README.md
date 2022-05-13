@@ -3,6 +3,8 @@
 ## Flight booking Application
 ### Deployed URL:http://44.203.36.137:3000/
 
+### Google Slides: https://docs.google.com/presentation/d/17hPO0HpxleU4qtJdADPeYIy4DIdteiPpKjeWXLJXmas/edit#slide=id.p
+
 ## Group Members:
 Satish Kathariya
 
