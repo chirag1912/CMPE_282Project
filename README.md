@@ -70,17 +70,22 @@ https://docs.google.com/document/d/1vZsREyHEh7hq0DCgmzB9wk-32S0CiOE_kVN_fg9SMF0/
 
 Steps taken to deploy the Application to EC2 instance with LoadBalancer and Autoscaling enabled:
 EC2 instance with AWS_CMPE_282 has been created:
+![image](https://user-images.githubusercontent.com/22998071/168374242-6c3e489e-22c1-4d11-a18a-6a9727c9196a.png)
 
 
 
 Git version: 2.32.0 is installed on the EC2 git version.
 
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168374597-33b72a10-971e-4aa5-a8e4-77c3205826a3.png">
+
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168374532-48a65469-1dfe-4b2c-a6ad-43f7436c372f.png">
 
 
 Once the Backend is successfully running, the Database connection successful message is displayed on the console:
 
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168374746-04b05e8c-568b-40b1-9e96-39d19f9ae307.png">
 
-
+Autoscaling and Load Balacer are deployed for the EC2 instance created:
 
 Steps taken to install in the EC2 instance:
 Commands followed to achieve the same:
@@ -99,17 +104,16 @@ then: npm install
 npm run start
 After this:
 The app should run on an instance: with domain name as:
-http://54.82.44.30:3000
+http://44.203.36.137:3000/
 port being the one on our localhost
 On creating the EC2 group connect-connect the EC2 group to get to the command line.
 there check for git-v and ls files if hosted/uploaded already to the EC2 instance.
 EC2 instance Service created.
 
 
-The frontend code has been deployed as well:
+The frontend code has been deployed as well.
 
-
-The application is running on the instance:
+## The application is running on the instance:
 http://44.203.36.137:3000/
 
 
