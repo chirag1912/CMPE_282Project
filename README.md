@@ -1,6 +1,9 @@
 # CMPE_282Project
 Flight booking Application
 
+## Application Deployed on URL:
+http://44.203.36.137:3000/
+
 ## Group Members:
 Satish Kathariya
 Rahul Sharma
