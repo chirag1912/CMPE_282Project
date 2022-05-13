@@ -4,9 +4,12 @@
 ### Deployed URL:http://44.203.36.137:3000/
 
 ## Group Members:
-Satish Kathariya/
-Rahul Sharma/
-Bhargav Shah/
+Satish Kathariya
+
+Rahul Sharma
+
+Bhargav Shah
+
 Chirag Rajpal
 
 ## Features of the Project:
