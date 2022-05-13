@@ -26,7 +26,7 @@ Okta Sign-On Integration
 
 –You can choose an alternate project with instructor consent
 
-Project Deliverables:
+## Project Deliverables attached with this Git Repo
 –Project Plan in .docx format. Here’s a good template
 
 –Project Presentation in .pptx format
