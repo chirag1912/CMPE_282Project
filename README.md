@@ -46,10 +46,9 @@ Server will be running on ‘http://localhost:3000’
 Requirements:
 
 set following environment variables values:
-
 AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID", None)
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY", None)
-AWS_REGION = os.getenv("AWS_REGION", None)    (Currently Running on us-east-1 region)
+AWS_REGION = os.getenv("AWS_REGION", None)
 COGNITO_USER_POOL_ID = os.getenv("COGNITO_USER_POOL_ID", None)
 COGNITO_APP_CLIENT_ID = os.getenv("COGNITO_APP_CLIENT_ID", None)
 S3_BUCKET = os.getenv("S3_BUCKET", None)
