@@ -63,6 +63,9 @@ Login Page:
 Sign Up Page:
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168347490-dbe15f30-ff8b-4dd2-9681-b4b52fa1b3c3.png">
 
+## Jenkins Screenshots(Continuos Integration and Development):
 
 ## EC2 Integration Autoscaling and Deployment:
 https://docs.google.com/document/d/1vZsREyHEh7hq0DCgmzB9wk-32S0CiOE_kVN_fg9SMF0/edit
+
+
