@@ -90,6 +90,8 @@ Once the Backend is successfully running, the Database connection successful mes
 
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168374746-04b05e8c-568b-40b1-9e96-39d19f9ae307.png">
 
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168402398-f9d17cf0-6796-4bb1-9e0f-ccf44ce480ed.png">
+
 Autoscaling and Load Balacer are deployed for the EC2 instance created:
 
 The frontend code has been deployed as well.
