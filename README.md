@@ -28,6 +28,34 @@ Okta Sign-On Integration
 
 –You can choose an alternate project with instructor consent
 
+## Pre-requisites Set Up:
+
+### Frontend:
+Node.js -Version 12 https://nodejs.org/en/
+
+Frontend Technologies: NPM, HTML, React, Bootstrap, Material UI.
+
+To run React application in local:
+1)npm install
+2)npx create-react-app .
+2)npm start
+
+Server will be running on ‘http://localhost:3000’ 
+
+## Backend SetUp:
+Requirements:
+
+set following environment variables values:
+
+AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID", None)
+AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY", None)
+AWS_REGION = os.getenv("AWS_REGION", None)    (Currently Running on us-east-1 region)
+COGNITO_USER_POOL_ID = os.getenv("COGNITO_USER_POOL_ID", None)
+COGNITO_APP_CLIENT_ID = os.getenv("COGNITO_APP_CLIENT_ID", None)
+S3_BUCKET = os.getenv("S3_BUCKET", None)
+S3_URL = os.getenv("S3_BUCKET", None)
+CLOUD_FRONT_URL = os.getenv("CLOUD_FRONT_URL", None)
+
 ## Project Deliverables attached with this Git Repo
 –Project Plan in .docx format. Here’s a good template
 
