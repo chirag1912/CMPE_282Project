@@ -36,3 +36,7 @@ Okta Sign-On Integration
 –15 minute live project presentation, where each team member MUST present/speak for a portion
 
 –Code (checked into github, with references in Project Report: https://github.com/sjsu-cmpe282
+
+
+## EC2 Integration Autoscaling and Deployment:
+https://docs.google.com/document/d/1vZsREyHEh7hq0DCgmzB9wk-32S0CiOE_kVN_fg9SMF0/edit
