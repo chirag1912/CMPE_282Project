@@ -39,6 +39,16 @@ Okta Sign-On Integration
 
 –Code (checked into github, with references in Project Report: https://github.com/sjsu-cmpe282
 
+## Screenshots of working aplication:
+Home Page:
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168347107-fc2fbec8-1003-4a33-911d-12fcd782cb24.png">
+
+Login Page:
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168347226-fcb8edc9-d590-419c-9925-1cde0cf5dfb2.png">
+
+Sign Up Page:
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168347490-dbe15f30-ff8b-4dd2-9681-b4b52fa1b3c3.png">
+
 
 ## EC2 Integration Autoscaling and Deployment:
 https://docs.google.com/document/d/1vZsREyHEh7hq0DCgmzB9wk-32S0CiOE_kVN_fg9SMF0/edit
