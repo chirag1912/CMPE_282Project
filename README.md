@@ -1,7 +1,7 @@
 # CMPE_282Project
 
 ## Flight booking Application
-### Deployed on URL:http://44.203.36.137:3000/
+### Deployed URL:http://44.203.36.137:3000/
 
 ## Group Members:
 Satish Kathariya
