@@ -90,7 +90,7 @@ Once the Backend is successfully running, the Database connection successful mes
 
 Autoscaling and Load Balacer are deployed for the EC2 instance created:
 
-'''
+```
 Steps taken to install in the EC2 instance:
 Commands followed to achieve the same:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
@@ -113,7 +113,7 @@ port being the one on our localhost
 On creating the EC2 group connect-connect the EC2 group to get to the command line.
 there check for git-v and ls files if hosted/uploaded already to the EC2 instance.
 EC2 instance Service created.
-'''
+```
 
 The frontend code has been deployed as well.
 
