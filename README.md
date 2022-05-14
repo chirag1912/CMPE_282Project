@@ -1,7 +1,7 @@
 # CMPE_282Project
 
 ## Flight booking Application
-### Deployed URL:http://3.95.193.142:3000/
+### Deployed URL:http://44.203.36.137:3000/
 
 ### Google Slides: https://docs.google.com/presentation/d/17hPO0HpxleU4qtJdADPeYIy4DIdteiPpKjeWXLJXmas/edit#slide=id.p
 
@@ -69,6 +69,15 @@ Login Page:
 <img width="1440" alt="image" src="https://user-images.githubusercontent.com/22998071/168347226-fcb8edc9-d590-419c-9925-1cde0cf5dfb2.png">
 
 ## Jenkins Screenshots(Continuos Integration and Development):
+Installation of jenkins on local Computer
+<img width="990" alt="Screen Shot 2022-05-13 at 5 45 24 PM" src="https://user-images.githubusercontent.com/19584278/168404486-f78b192a-a12e-46ef-aa74-63db929ad775.png">
+
+![login](https://user-images.githubusercontent.com/19584278/168404696-d0abec53-8621-4351-bb35-962587a99628.png)
+![d1](https://user-images.githubusercontent.com/19584278/168404724-7487c571-160a-4de7-b569-0efdeeb9eec0.png)
+![d2](https://user-images.githubusercontent.com/19584278/168404727-3e967bba-0a3c-4bb4-84b0-058dbf6d3e80.png)
+![d3](https://user-images.githubusercontent.com/19584278/168404734-2bf8a86d-f3eb-4c9b-9775-dd2aacffd560.png)
+![d4](https://user-images.githubusercontent.com/19584278/168404738-d232a92d-cb19-403f-9f50-3232e1efee4a.png)
+![d5](https://user-images.githubusercontent.com/19584278/168404744-809a8843-6c76-43ee-aa05-e163d6b8d0f3.png)
 
 ## EC2 Integration Autoscaling and Deployment:
 https://docs.google.com/document/d/1vZsREyHEh7hq0DCgmzB9wk-32S0CiOE_kVN_fg9SMF0/edit
