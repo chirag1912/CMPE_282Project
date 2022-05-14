@@ -4,6 +4,7 @@ import {useState} from 'react';
 import axios from 'axios';
 import {useHistory, Link} from 'react-router-dom';
 import backendServer from '../webConfig.js';
+import GoogleLogin from 'react-google-login';
 
 function SignupPage() {
 
@@ -53,6 +54,37 @@ function SignupPage() {
         
 
     }
+    const responseGoogle = (response) => { 
+        console.log(response.profileObj.givenName)
+            console.log(firstName)
+            console.log(lastName)
+            const data = {
+                firstName: response.profileObj.givenName,
+                lastName: response.profileObj.familyName,
+                email : response.profileObj.email,
+                password : ''
+            }
+            console.log(data)
+            axios.post(`${backendServer}/signup`, data).then((res)=>{
+                console.log(res)
+            if(res.status === 200){
+                console.log("Signup Successful");
+                localStorage.setItem("email",email);
+                localStorage.setItem("firstName",firstName);
+                localStorage.setItem("lastName",lastName);
+                localStorage.setItem("id",res.data.result[0].user_id);
+                
+                history.push('/search');
+            }
+
+            if(res.status === 209){
+                console.log("User already exists");
+                changeValidationText("Email already exists. Please another email address.");
+            }
+            })
+    
+
+      }
 
     return (
         <div>
@@ -134,6 +166,14 @@ function SignupPage() {
                 </Col>
                 <Col></Col>
             </Row>
+            <p>------or------</p>
+            <GoogleLogin
+                clientId="174007546581-v7v03f0hl42dqaf5rhp7p2mmc3rvgjqs.apps.googleusercontent.com"
+                buttonText="Sign-Up"
+                onSuccess={responseGoogle}
+                onFailure={responseGoogle}
+                cookiePolicy={'single_host_origin'}
+            />
 
             </Container>
             

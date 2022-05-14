@@ -12,7 +12,7 @@ function LandingPage() {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home" className="ml-auto">Chapri Airlines</Navbar.Brand>
+                    <Navbar.Brand href="#home" className="ml-auto">Optimus Airlines</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                 <Nav className="mr-auto">

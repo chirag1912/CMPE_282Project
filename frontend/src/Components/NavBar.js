@@ -8,7 +8,7 @@ function NavBar() {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand className="ml-auto" href="#home">Chapri Airlines</Navbar.Brand>
+                    <Navbar.Brand className="ml-auto" href="#home">Optimus Airlines</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                     

@@ -4,6 +4,7 @@ import {useState} from 'react';
 import axios from 'axios';
 import {useHistory, Link} from 'react-router-dom';
 import backendServer from '../webConfig.js';
+import GoogleLogin from 'react-google-login';
 
 function LoginPage() {
 
@@ -14,6 +15,41 @@ function LoginPage() {
 
     //routing
     const history = useHistory();
+    const responseGoogle = async (response) => {
+        console.log(response);
+        const data = {
+            email : response.profileObj.email,
+            password : ''
+        }
+        try{
+            const response =  await axios.post(`${backendServer}/login`, data);
+            console.log(response.data);
+
+            if(response.status === 200){
+                console.log("Login Successful");
+                localStorage.setItem("email",response.data.results[0].user_email);
+                localStorage.setItem("id",response.data.results[0].user_id );
+                localStorage.setItem("firstName",response.data.results[0].user_firstName);
+                localStorage.setItem("lastName",response.data.results[0].user_lastName);
+                history.push('/search');
+            }
+
+            if(response.status === 209){
+                console.log("Wrong Password");
+                changeValidationText("Wrong Password!");
+            }
+
+            if(response.status === 210){
+                console.log("Email Password does not exist!");
+                changeValidationText("Email Address does not exist. Signup First!");
+            }
+
+        }catch(error){
+           console.log(error); 
+
+        }
+
+      }
 
     const handleLogin = async (event) =>{
         event.preventDefault();
@@ -109,6 +145,14 @@ function LoginPage() {
                                 Submit
                             </Button>
                         </Form>
+                        <p>------or------</p>
+                        <GoogleLogin
+                            clientId="174007546581-v7v03f0hl42dqaf5rhp7p2mmc3rvgjqs.apps.googleusercontent.com"
+                            buttonText="Login"
+                            onSuccess={responseGoogle}
+                            onFailure={responseGoogle}
+                            cookiePolicy={'single_host_origin'}
+                        />
                         <p style={{color:"red"}}>{validationText}</p>
                     
                     </Col>
