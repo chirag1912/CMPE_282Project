@@ -69,9 +69,9 @@ function SignupPage() {
                 console.log(res)
             if(res.status === 200){
                 console.log("Signup Successful");
-                localStorage.setItem("email",email);
-                localStorage.setItem("firstName",firstName);
-                localStorage.setItem("lastName",lastName);
+                localStorage.setItem("email",res.data.result[0].user_email);
+                localStorage.setItem("firstName",res.data.result[0].user_firstName);
+                localStorage.setItem("lastName",res.data.result[0].user_lastName);
                 localStorage.setItem("id",res.data.result[0].user_id);
                 
                 history.push('/search');

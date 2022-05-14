@@ -16,7 +16,7 @@ function LoginPage() {
     //routing
     const history = useHistory();
     const responseGoogle = async (response) => {
-        console.log(response);
+        console.log(response.profileObj.email);
         const data = {
             email : response.profileObj.email,
             password : ''
