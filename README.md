@@ -27,12 +27,6 @@ Okta Sign-On Integration
 
 –Cloud based Jenkins, integrated into SSO and Github repo; e.g., Continuous Deployment on AWS with AWS  (Links to an external site.)CodePipeline (Links to an external site.), Jenkins and AWS Elastic Beanstalk (Links to an external site.)
 
-–Additional integrations / features / capabilities for higher grade [layered security, social media integration, document repository, SFDC integration, etc..]
-
-–For top marks, solution should use a modern approach, e.g. serverless, etc..
-
-–You can choose an alternate project with instructor consent
-
 ## Pre-requisites Set Up:
 
 ### Frontend and Backend Setup:
