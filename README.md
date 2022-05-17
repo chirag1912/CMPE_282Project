@@ -15,15 +15,14 @@ Bhargav Shah
 Chirag Rajpal
 
 ## Features of the Project:
-Okta Sign-On Integration
 
-–Okta based  (Links to an external site.)Cloud Single Sign-on (SSO) / AD
+–Google Single SignOn based Integration
 
 –Cloud based database/datastore backend
 
 –Cloud based Web portal for viewing/browsing (sample) enterprise data (with SSO login)
 
-–Github  (Links to an external site.)integrated into SSO (for all project code)
+–Github integrated into SSO (for all project code)
 
 –Cloud based Jenkins, integrated into SSO and Github repo; e.g., Continuous Deployment on AWS with AWS  (Links to an external site.)CodePipeline (Links to an external site.), Jenkins and AWS Elastic Beanstalk (Links to an external site.)
 
